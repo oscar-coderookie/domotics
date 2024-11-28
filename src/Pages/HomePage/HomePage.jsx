@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './HomePage.scss';
-import slide1 from '../../img/slide1-home.jpg'
 
 const HomePage = () => {
-  return (
-    <div className='homepage-block'>
-      <div className="homepage__section">
-        <img className='homepage__image' src={slide1} alt="slide1" />
-      </div>
 
+
+  return (
+    <div className="homepage-block">
+      <h1 className='homepage__title'>Componentes electromecánicos</h1>
     </div>
   )
 }

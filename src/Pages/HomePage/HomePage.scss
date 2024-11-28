@@ -1,47 +1,22 @@
 .homepage {
-    &__section{
-
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        object-position: center;
-        
-
-    }
-    &__image{
-        width: 100%;
-        object-position: center;
-        object-fit: cover;
-        height: 100vh;
+    &__title{
+        color: #25aee0;
+        font-family: "Sarala";
+        font-weight: 200;
+        text-transform: uppercase;
     }
     &-block {
         display: flex;
         width: 100%;
-        align-items: flex-end;
+        height: 100vh;
         justify-content: center;
-        background-size: cover;
-        background-position: center;
+        align-items: center;
+        background: url("../../img/fondo.jpg") no-repeat center center; /* Asegura que la imagen esté centrada */
+        background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+        background-attachment: fixed;
 
         @media (max-width: 675px) {
-        }
-    }
-
-    &-name {
-        text-transform: uppercase;
-        font-size: 40px;
-        font-family: "Sarala", sans-serif;
-        margin-bottom: 100px;
-        letter-spacing: 1px;
-        line-height: 1.25;
-    }
-
-    &-title {
-        color: white;
-
-        h3 {
-            font-weight: 400;
-            margin: 0;
-            padding: 0;
+            background-attachment: fixed;
         }
     }
 }

@@ -35,7 +35,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact-container">
-      <h2 className='contact__title'>Contacta al Director del Club:</h2>
+      <h2 className='contact__title'>Contacta a nuestro equipo de ventas:</h2>
       <div className="contact__block1">
         <form onSubmit={handleSubmit}>
           <div className="campo-formulario">
