@@ -1,0 +1,120 @@
+.contact {
+    &__title {
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    &-container {
+        margin: 0 auto;
+        padding-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__block1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.campo-formulario {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+label {
+    font-weight: 500;
+    margin: 0;
+    width: 100%;
+
+    text-align: left;
+}
+
+input,
+textarea {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 0.5px solid gray;
+}
+.form__input {
+    height: 30px;
+}
+.form__textarea {
+    height: 160px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.submit__btn {
+    border: 0.5px solid rgb(194, 194, 194);
+    background: rgb(214, 214, 214);
+    width: 100%;
+    color: black;
+    padding: 10px;
+}
+.location__info {
+    height: 100vh;
+    background: rgb(197, 197, 197);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__map {
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+.socialbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        margin: 10px;
+    }
+    &__icons {
+        font-size: 30px;
+        margin: 10px;
+    }
+}
