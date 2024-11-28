@@ -10,7 +10,7 @@
     }
 
     &-block {
-        background-image: linear-gradient(to bottom, #020202, #101010, #212121, #101010, #020202);
+        background-image: linear-gradient(135deg, #e4e4e4 0%, #3f00cf 76%);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -32,7 +32,7 @@
             font-weight: 700;
             letter-spacing: 1px;
             line-height: 1.25;
-            color: #33CCCC;
+            color: #3f00cf ;
             width: 175px;
             font-family: 'Sarala', sans-serif;
         }
@@ -54,7 +54,7 @@
 
     &-nav {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
@@ -64,15 +64,9 @@
         transition: all 0.4s ease-in-out;
         top: 0;
         z-index: 90;
-        background-image: linear-gradient(to bottom, #020202, #101010, #212121, #101010, #020202);
+        background-image: linear-gradient(135deg, #e4e4e4 0%, #3f00cf 76%);
         background-size: cover;
         text-transform: uppercase;
-        padding-top: 80px;
-
-        
-
-    
-
 
 
         &__list {
@@ -101,7 +95,7 @@
             align-items: center;
             justify-content: center;
             text-transform: uppercase;
-            color: #33CCCC;
+            color: white;
             width: 100%;
             height: 100%;
             letter-spacing: 2px;
@@ -111,10 +105,9 @@
             /* Cambiado de width a background */
 
             &:hover {
-                font-weight: 600;
-                background: #33CCCC;;
+                background: white;;
                 width: 100%;
-                color: #1a1a1a;
+                color: #3f00cf;
             }
         }
 

@@ -17,6 +17,11 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-block">
+                
+                <div className="header-logo">
+                    <h2>DOMOTICS CHRIS ROSAS</h2>
+               
+                </div>
                 <div className="header-menu">
                     <Hamburger
                         toggled={open}
@@ -25,13 +30,9 @@ const Header = () => {
                         rounded
                         hideOutline={false}
                         onClick={() => setOpen(!open)}
-                        color="#33CCCC"
+                        color="#ffffff"
 
                     ></Hamburger>
-                </div>
-                <div className="header-logo">
-                    <h2>DOMOTICS CHRIS ROSAS</h2>
-               
                 </div>
             </div>
 
