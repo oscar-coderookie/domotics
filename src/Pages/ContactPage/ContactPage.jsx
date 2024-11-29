@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ContactPage.scss';
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaShoppingCart, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 const ContactPage = () => {
   const [nombre, setNombre] = useState('');
@@ -24,6 +24,7 @@ const ContactPage = () => {
           <FaFacebook className='socialbar__icons' />
           <FaTwitter className='socialbar__icons' />
           <FaYoutube className='socialbar__icons' />
+          
         </div>
         <h3 className="socialbar__title">Hablemos por:</h3>
         <FaWhatsapp className='socialbar__icons'/>

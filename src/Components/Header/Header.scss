@@ -7,6 +7,9 @@
     &-menu {
         z-index: 150;
     }
+    &__img{
+        width: 90px;
+    }
 
     &-block {
         background: rgba($color: black, $alpha: 0.85);
@@ -16,13 +19,13 @@
         padding-left: 10px;
         padding-right: 10px;
         position: relative;
+        height: 100px;
     }
 
     &-logo {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
         margin: 10px;
 
         h2 {
@@ -42,9 +45,7 @@
             /* Resplandor cercano */
         }
 
-        img {
-            padding: 10px 10px 10px 10px;
-        }
+    
     }
 
     &-icons {
@@ -130,15 +131,6 @@
     }
 
     @media (max-width: 1080px) {
-        &-block {
-            height: 100px;
-        }
-
-        &-logo {
-            img {
-                height: 80px;
-            }
-        }
 
         &-nav {
             width: 100%;

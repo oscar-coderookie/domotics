@@ -6,7 +6,7 @@ import {  SiUnderarmour,SiAdidas, SiCocacola  } from "react-icons/si";
 const NavSocial = () => {
   return (
     <div className="nav__social">
-      <p className="nav__social__text">Social Networks:</p>
+      <p className="nav__social__text">Redes Sociales:</p>
       <div className="nav__barsocial">
         <a
         href=""
